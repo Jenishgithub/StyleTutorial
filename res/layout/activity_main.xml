@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/MyAppStyle.Title"
+        android:text="Welcome to our Application" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_below="@+id/title"
+        android:src="@drawable/open1" />
+
+    <TextView
+        android:id="@+id/prompt"
+        android:layout_above="@+id/btn_login"
+        android:text="Let me see you bounce" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_alignParentBottom="true"
+        android:text="Log in" />
+
+</RelativeLayout>
